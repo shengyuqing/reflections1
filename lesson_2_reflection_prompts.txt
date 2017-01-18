@@ -1,0 +1,27 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+git 就已经创建了相关的git 资源库，
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+工作目录是硬盘所在的目录，是没有提交给资源库的该目录中的文件。资源库是已经commit过的文件。staging area的价值是可以自己调节一次ommit
+包含哪些内容，这样结构更清晰。如果没有staging area，一次只能commit一个文件，会造成繁杂的历史记录。如果commit整个工作目录，也会
+造成繁杂的log.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+他们把两个分支修改的部分添加进最后的结果。画成图状有助于我们更好的看清问题。
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
